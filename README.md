@@ -2,7 +2,7 @@
 
 To Install 
 
-* Just do `./install.sh` from your Linux/Mac/Cygwin system.
+* Just do `./install.sh` from your Linux/Mac/Cygwin 64bit OS.
 
 How to use ssh_tools
 
