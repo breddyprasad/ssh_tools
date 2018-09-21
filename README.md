@@ -2,12 +2,12 @@
 
 To Install 
 
-* Just do ./install.sh from your Linux/Mac/Cygwin box
+* Just do `./install.sh` from your Linux/Mac/Cygwin system.
 
 How to use ssh_tools
 
-* Update your server details in /usr/local/bin/sshinfo
-example sshinfo file 
+* Update the server details in /usr/local/bin/sshinfo
+_example sshinfo file_
 ```
 ####
 pi
@@ -19,12 +19,12 @@ jumpbox
 ec2-user@jumpbox.example.com
 ####
 ```
-In above sshinfo file you can have multiple server details separated by #### hash 
-1st alias name 
-2nd relative/absolute path of server private key
-3rd hostname@ip/dns of the server
+In above sshinfo file you can have multiple server details separated by #### hash.
+1st line should be _alias_.
+2nd line should be _relative/absolute path of server private key_.
+3rd line should be _hostname@ip/dns of the server_.
 
-* To login to the server example pi just do below command
+* To login to the server example pi just do below command.
 ```
 sshto pi
 ```
@@ -32,7 +32,7 @@ sshto pi
 ```
 Are you ready with password and otp : 
 ```
-type y to proceed or any other key for not to proceed
+type `y` to proceed or any other key for not to proceed.
 
 * To copy files to pi home directory 
 ```
